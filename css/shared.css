@@ -127,7 +127,7 @@ section {
 
 .menu-container {
     max-height: 340px;
-    margin: 04 auto;
+    margin: 4 auto;
     /* top: 0; */
     /* position: absolute; */ /* to the edge of the screen */
     width: 100%;
@@ -262,7 +262,7 @@ CONTACT STYLES
     outline: none;
     font-weight: 600;
     color: #8d8e8f;
-    padding: 24 14 24 74;
+    padding: 2% 1% 2% 7%;
     width: 80%;
     border-top: 1px solid #090b0d;
     border-right: 2px solid #424549;
@@ -271,7 +271,7 @@ CONTACT STYLES
     margin: 10px 1em;
     border-radius: 7px;
     background: #13161b;
-    box-shadow: insert 0px 3px 0px 0px rgba(5,5,5,0.15);
+    box-shadow: inset 0px 3px 0px 0px rgba(5,5,5,0.15);
     font-family: 'Raleway', sans-serif;
 }
 
@@ -315,7 +315,7 @@ CONTACT STYLES
     padding: 7px 0px;
     width: 25%;
     font-size: 18px;
-    transition: border-color 0.3s color 0.3s;
+    transition: border-color 0.3s color 0.3s background-color 0.3s;
     border-radius: 7px;
     background-color: #797a7b;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.3);
@@ -332,14 +332,12 @@ FOOTER STYLES
 ------------------------------------------------------------*/
 
 #footer {
-    background-color: rgba(100,65,0,0.3);
+    background-color: rgba(100,65,0,.3);
     color: #000;
-    text-shadow: 2px 2px 6px (0,0,0,0.4);
+    text-shadow: 2px 2px 6px (0,0,0,.4);
     padding: 20px 50px 20px 50px;
-    text-align: right;}
-
-
-   
+    text-align: right;
+}
 
       section p {
         font-size: 20px;
